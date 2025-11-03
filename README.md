@@ -20,8 +20,6 @@ Shows all students, including those **not enrolled** in any course (e.g., İpek 
 Shows all courses, including those **with no enrolled students** (e.g., ME-103 – Introduction to Mechanical Engineering).
 
 
----
-
 ### 📈 Comparison Summary
 | JOIN Type | Includes All Students | Includes All Courses | Excludes Unmatched |
 |------------|------------------------|------------------------|--------------------|
