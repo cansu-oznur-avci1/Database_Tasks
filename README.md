@@ -1,32 +1,13 @@
 # SQL Database Tasks – Weekly Progress
 
-## Week 5 – SQL JOIN Operations
-
-### 📘 Course Information
+## 📘 Course Information
 **Course:** Database Systems and Applications  
 **Student:** Cansu Öznur Avcı  
 **Department:** Computer Engineering, Sivas University of Science and Technology
 
----
-
-### 🧩 Project Overview
-This week’s task focuses on creating a **school database** with three main tables:
-- **Students**
-- **Courses**
-- **Enrollments** (with foreign keys)
-
-After inserting sample data, different **JOIN operations** (INNER, LEFT, RIGHT) were performed to analyze the relationships between students and courses.
-
----
-
-### ⚙️ How to Run
-1. Open **SQL Server Management Studio (SSMS)**.
-2. Create a database named `school`.
-3. Copy the SQL queries from the file `school_tasks_ssms.sql`.
-4. Execute the script step by step.
-5. Observe the JOIN results in the Results section.
-
----
+## Week 5 – SQL JOIN Operations
+This week’s task focused on creating a database system with three tables: **Students**, **Courses**, and **Enrollments**.  
+Different types of SQL JOIN operations (INNER, LEFT, and RIGHT JOIN) were applied to compare data relationships between these tables.
 
 ### 📊 JOIN Results
 #### 🔹 INNER JOIN
@@ -50,10 +31,24 @@ Shows all courses, including those **with no enrolled students** (e.g., ME-103 �
 
 ---
 
-## Week 6 – Coming Soon
-This section will be updated with next week’s SQL task and results.
+## Week 6 – GROUP BY & HAVING
+This week’s topic covered the **GROUP BY**, **WHERE**, and **HAVING** clauses.  
+Each is used for filtering and grouping, but they differ in *when* and *how* the filtering occurs.
+
+| Clause | Description | Example Purpose |
+|:-------|:-------------|:----------------|
+| **GROUP BY** | Groups rows that have the same values into summary rows. | Find how many courses each student is enrolled in. |
+| **WHERE** | Filters rows *before* grouping. | Select only courses starting with “CNG”. |
+| **HAVING** | Filters groups *after* grouping. | Display only students enrolled in more than two courses. |
+
+**Key Difference:**  
+`WHERE` filters individual rows, while `HAVING` filters grouped results.  
 
 ---
+
+## Week-7
+Coming soon…
+
 
 
 
